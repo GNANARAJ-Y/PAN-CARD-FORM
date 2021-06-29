@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAN Card Forum</title>
+    <style>
+        th{
+            background-color: maroon;
+            color: floralwhite;
+            border: 1px solid grey;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        table,td{
+            background-color: cornsilk;
+            border: 1px solid grey;
+            border-collapse: collapse;
+            text-align: left;
+        }
+        span{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th colspan="3" width="1300">
+                    <h4>Request For New PAN Card Or/And Changes Or Correction in PAN Data</h4>
+                    <p><i>Fields marked with <span>*</span> (asterisk) are mandatory. To avoid mistake(s), please refer <u>guidelines</u> and <u>instructions</u></i></p>
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td width="31"></td>
+                <td colspan="2"><span>*</span><b> Whether citizen of India </b>
+                    <label for="Yes" style="padding-left: 60px;">Yes</label>
+                    <input type="radio" id="Yes">
+                    <label for="No" style="padding-left: 30px;">No</label>
+                    <input type="radio" id="No">
+                </td>
+            </tr>
+            <tr>
+                <td width="31"></td>
+                <td colspan="2"><span>*</span><b> Permanent Account Number </b><label for="PAN"><b> (PAN) </b></label><input type="text" id="PAN"></td>
+            </tr>
+            <tr>
+                <td width="31"><input type="checkbox"></td>
+                <td colspan="2"><span>*</span><b> 1. Name </b></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
